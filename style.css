@@ -19,8 +19,8 @@
 }
 
 .platform {
-    width: 38px;
-    height: 20px;
+    width: 85px;
+    height: 26px;
     background-image: url('rock.png');
     position: absolute;
 }

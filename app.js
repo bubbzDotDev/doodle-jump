@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     class Platform {
         constructor(newPlatBottom) {
             this.bottom = newPlatBottom
-            this.left = Math.random() * 362
+            this.left = Math.random() * 315
             this.visual = document.createElement('div')
 
             const visual = this.visual
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     (doodlerBottomSpace >= platform.bottom) &&
                     (doodlerBottomSpace <= platform.bottom + 15) &&
                     ((doodlerLeftSpace + 60) >= platform.left) &&
-                    (doodlerLeftSpace <= (platform.left + 38)) &&
+                    (doodlerLeftSpace <= (platform.left + 85)) &&
                     !isJumping
                 ) {
                     startPoint = doodlerBottomSpace
