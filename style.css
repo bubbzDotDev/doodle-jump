@@ -39,7 +39,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 280px;
+    height: 330px;
     width: 380px;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -51,6 +51,9 @@ a {
     color: #3f48cc;
     background-color: white;
     border-radius: 5px;
-    padding: 5px;
+    padding: 2px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
